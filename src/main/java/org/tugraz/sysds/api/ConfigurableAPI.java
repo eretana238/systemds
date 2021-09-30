@@ -28,7 +28,7 @@ public interface ConfigurableAPI
 	/**
 	 * Reset configuration settings to default settings.
 	 */
-	public void resetConfig();
+	void resetConfig();
 	
 	/**
 	 * Set configuration property, such as
@@ -39,5 +39,5 @@ public interface ConfigurableAPI
 	 * @param propertyValue
 	 *            property value
 	 */
-	public void setConfigProperty(String propertyName, String propertyValue);
+	void setConfigProperty(String propertyName, String propertyValue);
 }
